@@ -1,7 +1,6 @@
 package logic;
 
 import infra.HTTP_Facade;
-import lombok.Data;
 import org.junit.Assert;
 import org.junit.Test;
 
