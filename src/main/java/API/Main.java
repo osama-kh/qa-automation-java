@@ -13,6 +13,7 @@ import org.apache.hc.core5.http.HttpResponse;
 import org.apache.hc.core5.http.ParseException;
 import org.apache.hc.core5.http.io.entity.EntityUtils;
 
+import javax.xml.transform.Result;
 import java.io.IOException;
 import java.lang.reflect.Type;
 import java.util.HashMap;
@@ -22,8 +23,10 @@ public class Main {
 
     public static void main(String[] args) throws IOException{
 
+        String x="111";
+        System.out.println(x.getClass().getName());
         NEW_DECK Json = GET(NEW_DECK.class,"https://deckofcardsapi.com/api/deck/new/");
-
+//
         System.out.println(Json.getDeck_id());
 
 //        String res2 =GET("https://deckofcardsapi.com/api/deck/"+deck.getDeck_id()+"/draw/?count=2");
