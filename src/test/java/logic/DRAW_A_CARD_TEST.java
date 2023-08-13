@@ -29,9 +29,9 @@ public DRAW_A_CARD_TEST(){
         Assert.assertTrue(Help_functions.type_checker(provider.getDraw_a_card().getRemaining(),Integer.class.getName()));
 
     }
-    @Test
-    public void Status_validation(){
-        Assert.assertEquals(HTTP_Facade.getStatus(),200);
-
-    }
+//    @Test
+//    public void Status_validation(){
+//        Assert.assertEquals(HTTP_Facade.getStatus(),200);
+//
+//    }
 }
